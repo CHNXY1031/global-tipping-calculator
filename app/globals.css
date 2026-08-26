@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --cream: #f6f1e7; --forest: #123c32; --ink: #1d2a27; --gold: #a97938; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--cream); color: var(--ink); font-family: var(--font-geist-sans), Arial, sans-serif; }
+.font-serif { font-family: Georgia, "Times New Roman", serif; }
+.eyebrow { display: inline-flex; border: 1px solid rgb(18 60 50 / .16); border-radius: 999px; padding: .55rem .85rem; color: rgb(18 60 50 / .75); font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+input[type="range"] { accent-color: var(--forest); }
+::selection { background: #cfdacb; color: #123c32; }
